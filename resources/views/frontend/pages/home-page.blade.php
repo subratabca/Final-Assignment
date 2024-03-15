@@ -1,0 +1,10 @@
+@extends('frontend.layout.master-layout')
+@section('title', 'Home Page')
+@section('content')
+    @include('frontend.components.home.slider')
+    @include('frontend.components.home.category')
+    @include('frontend.components.home.resume')
+    @include('frontend.components.home.featured_job')
+    @include('frontend.components.home.blog')
+    @include('frontend.components.home.testimonial')
+@endsection
